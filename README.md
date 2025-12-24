@@ -108,28 +108,6 @@ After this system:
 
 Basically improved response time by 95% and reduced security risk significantly.
 
-## Project Structure
-
-aws-security-portfolio/
-├── README.md                    # This file
-├── architecture/                # Architecture diagrams
-├── screenshots/                 # Evidence of implementation
-│   ├── 01-organizations/       # Multi-account setup
-│   ├── 02-iam-policies/        # Access control
-│   ├── 03-vpc-network/         # Network security
-│   ├── 04-guardduty/           # Threat detection
-│   ├── 05-config-compliance/   # Compliance automation
-│   ├── 06-lambda-functions/    # Response automation
-│   ├── 07-cloudtrail/          # Audit logging
-│   ├── 08-security-hub/        # Security dashboard
-│   ├── 09-athena-queries/      # Threat hunting
-│   └── 10-eventbridge/         # Event automation
-└── terraform/                   # Infrastructure as Code
-    ├── main.tf                 # Main configuration
-    ├── variables.tf            # Variables
-    ├── outputs.tf              # Outputs
-    └── modules/                # Reusable modules
-
 
 How to Deploy This Yourself
 
